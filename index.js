@@ -24,7 +24,7 @@ const title = ["Sol LeWitt ",
 ]
 
 function loadAudioFiles() {
-  const audioFiles = ['01.wav', '02.wav', '03.wav'];
+  const audioFiles = ['Walldrawing_391.mp3', 'Walldrawing_780.mp3', 'Walldrawing_852_853.mp3'];
   
   audioFiles.forEach((file, index) => {
     fetch(`audio/${file}`)
@@ -85,8 +85,6 @@ function playAudio(audioIndex, element) {
     }
   }
   
-  
-
 // Load audio files when the page loads
 loadAudioFiles();
 animateTitle();
