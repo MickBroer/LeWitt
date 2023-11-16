@@ -37,7 +37,7 @@ body {
     font-family: sans-serif;
     top: 98%;  /* Explicitly set to top of the container */
     left: 2%;  /* Explicitly set to left of the container */
-    font-size: 3vh;
+    font-size: 2vh;
     position: absolute;
     display: inline-block;
     z-index: 1000;

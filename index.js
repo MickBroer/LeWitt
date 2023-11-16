@@ -37,34 +37,29 @@ logo.onmouseout = function(){
 
 MJ.onmouseover = function(){
   MJ.style.cursor = "pointer";
-  MJ.style.color = 'rgb(64, 38, 170, 0.5)';
 }
 
 MJ.onmouseout = function(){
   MJ.style.cursor = "default";
-  MJ.style.color = 'rgb(64, 38, 170, 1)';
 
 }
 
 JU.onmouseover = function(){
   JU.style.cursor = "pointer";
-  JU.style.color = 'rgb(64, 38, 170, 0.5)';
 }
 
 JU.onmouseout = function(){
   JU.style.cursor = "default";
-  JU.style.color = 'rgb(64, 38, 170, 100)';
 
 }
 
 JY.onmouseover = function(){
   JY.style.cursor = "pointer";
-  JY.style.color = 'rgb(64, 38, 170, 0.5)';
 }
 
 JU.onmouseout = function(){
   JY.style.cursor = "default";
-  JY.style.color = 'rgb(64, 38, 170, 100)';
+
 }
 
 
