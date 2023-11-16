@@ -1,7 +1,8 @@
 body {
     margin: 0;
-    padding-top: 3%;
-    padding-bottom: 3%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-family: sans-serif;
 }
 
 .image-gallery {
@@ -16,22 +17,27 @@ body {
     margin-bottom: 20px;  /* Adds distance between images */
 }
 
-img {
-    padding-top: 5%;
+.image {
+    padding-top: 10%;
     width: 100%;
     height: auto;
     max-width: 100%;
 }
 
+#jck{
+    width: 20%;
+    max-width: 100%;
+}
+
 .text {
-    background-color: white;
-    color: black;  /* Ensure the text is visible */
+    background-color: rgba(255, 255, 255, 0);
+    color: rgb(64, 38, 170);  /* Ensure the text is visible */
     padding-left: 50px;
     padding-right: 20px;
     font-family: sans-serif;
-    top: 75%;  /* Explicitly set to top of the container */
-    left: 5%;  /* Explicitly set to left of the container */
-    font-size: 2vh;
+    top: 98%;  /* Explicitly set to top of the container */
+    left: 2%;  /* Explicitly set to left of the container */
+    font-size: 3vh;
     position: absolute;
     display: inline-block;
     z-index: 1000;

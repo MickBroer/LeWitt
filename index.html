@@ -8,26 +8,31 @@
     <title>Sol Lewitt</title>
 </head>
 <body>
+    <img onclick="redirect('https://jck.nl/agenda/sol-lewitt')" id=jck src="images/JCK.png">
+
     <div class="image-gallery">
         <div class="image-container">
-            <img id="853" src="images/sol_lewitt_853.png">
+            <img class=image id="853" src="images/sol_lewitt_853.png">
             <div class="circle" onclick="playAudio(2, this)">
                 <div class="inner-shape triangle"></div> 
-            </div>   
+            </div>
+            <p class="text" id="JU"><i>Door: Julia Kuipers</i></p>
         </div>
         <div class="image-container">
-            <img id="780" src="images/sol_lewitt_780.png">
+            <img class=image  id="780" src="images/sol_lewitt_780.png">
             <div class="circle" onclick="playAudio(1, this)">
                 <div class="inner-shape triangle"></div> 
             </div>      
+            <p class="text" id="JY"><i>Door: <text>Jacco Kamp </text> en <text onclick="redirect('https://www.instagram.com/yelmokooij')">Yelmo Kooij</text></i></p>
         </div>
         
 
         <div class="image-container">
-            <img id="391" src="images/sol_lewitt_391.jpg">
+            <img class=image id="391" src="images/sol_lewitt_391.jpg">
             <div class="circle" onclick="playAudio(0, this)">
                 <div class="inner-shape triangle"></div>
-              </div>
+            </div>
+            <p class="text" id="MJ" onclick="redirect('https://open.spotify.com/album/037NAPoGz9mfUQcMsRQY0W?si=TeNTJBivRMy0TGJsdbY8JA')"><i>Door: Mick Broer en Joris van de Sande</i></p>
         </div>
     </div>
     <script src="index.js"></script>

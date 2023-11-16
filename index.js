@@ -22,6 +22,55 @@ const title = ["Sol LeWitt ",
     "Sol LeWi tt",
     "Sol LeWit t"
 ]
+const logo = document.getElementById("jck");
+const MJ = document.getElementById("MJ");
+const JU = document.getElementById("JU");
+const JY = document.getElementById("JY");
+
+logo.onmouseover = function(){
+  logo.style.cursor = "pointer";
+}
+
+logo.onmouseout = function(){
+  logo.style.cursor = "default";
+}
+
+MJ.onmouseover = function(){
+  MJ.style.cursor = "pointer";
+  MJ.style.color = 'rgb(64, 38, 170, 0.5)';
+}
+
+MJ.onmouseout = function(){
+  MJ.style.cursor = "default";
+  MJ.style.color = 'rgb(64, 38, 170, 1)';
+
+}
+
+JU.onmouseover = function(){
+  JU.style.cursor = "pointer";
+  JU.style.color = 'rgb(64, 38, 170, 0.5)';
+}
+
+JU.onmouseout = function(){
+  JU.style.cursor = "default";
+  JU.style.color = 'rgb(64, 38, 170, 100)';
+
+}
+
+JY.onmouseover = function(){
+  JY.style.cursor = "pointer";
+  JY.style.color = 'rgb(64, 38, 170, 0.5)';
+}
+
+JU.onmouseout = function(){
+  JY.style.cursor = "default";
+  JY.style.color = 'rgb(64, 38, 170, 100)';
+}
+
+
+function redirect(link){
+  window.location.href = link;
+}
 
 function loadAudioFiles() {
   const audioFiles = ['Walldrawing_391.mp3', 'Walldrawing_780.mp3', 'Walldrawing_852_853.mp3'];
