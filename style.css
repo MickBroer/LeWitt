@@ -31,7 +31,7 @@ body {
 
 .text {
     background-color: rgba(255, 255, 255, 0);
-    color: rgb(64, 38, 170);  /* Ensure the text is visible */
+    color: #000F9F;  /* Ensure the text is visible */
     padding-left: 50px;
     padding-right: 20px;
     font-family: sans-serif;
